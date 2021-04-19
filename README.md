@@ -18,7 +18,7 @@ There are 4 variables that can be modified by the user through the use of the fo
 * python solver.py --Fs 500 --Vs 1500 --Splits 70 15 15 --Seed 127863182
 * python solver.py --Fs 200 --Splits 50 35 15
 
-## Default Values
+# Default Values
 * --Fs 600
 * --Vs 1000
 * --Splits 80 10 10
