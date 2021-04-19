@@ -1,6 +1,12 @@
 # Instructions
 1. Clone or download this repository
-2. 
+2. Unzip the folder named bbc.zip
+3. Place bbc folder in the same location as solver.py
+4. Using pip or manual installation, download the files listed in 'Dependencies' at the bottom of this page
+5. Run the python script `solver.py` from the command prompt `python solver.py`
+6. (optionally) adjust any of the settings listed below
+7. Sit back and wait for the program to perform all of the steps and produce a final report to the command prompt
+
 # Settings
 There are 4 variables that can be modified by the user through the use of the following command line arguments.
 * `--Fs` - Feature selection size. This is the number of features to be left after feature selection has occured.
