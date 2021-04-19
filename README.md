@@ -5,7 +5,7 @@
 4. Using pip or manual installation, download the files listed in 'Dependencies' at the bottom of this page
 5. Run the python script `solver.py` from the command prompt `python solver.py`
 6. (optionally) adjust any of the settings listed below
-7. Sit back and wait for the program to perform all of the steps and produce a final report to the command prompt
+7. Sit back and wait for the program to perform all of the steps and produce a final report to the command prompt and a confusion matrix.
 
 # Settings
 There are 4 variables that can be modified by the user through the use of the following command line arguments.
@@ -29,3 +29,4 @@ There are 4 variables that can be modified by the user through the use of the fo
 * `nltk==3.6.1`              `pip install nltk`
 * `numpy==1.20.2`            `pip install numpy`
 * `scikit_learn==0.24.1`     `pip install sklearn`
+* `matplotlib==3.4.1`        `pip install matplotlib`
