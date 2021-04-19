@@ -1,6 +1,6 @@
 # Instructions
 1. Clone or download this repository
-2. Unzip the folder named bbc.zip
+2. Unzip the folder named `bbc.zip`
 3. Place bbc folder in the same location as solver.py
 4. Using pip or manual installation, download the files listed in 'Dependencies' at the bottom of this page
 5. Run the python script `solver.py` from the command prompt `python solver.py`
@@ -15,17 +15,17 @@ There are 4 variables that can be modified by the user through the use of the fo
 * `--Seed` - Randomness seed. This seed is used to provide reproducable splits between the sets of data
 
 # Example Usage
-* python solver.py --Fs 500 --Vs 1500 --Splits 70 15 15 --Seed 127863182
-* python solver.py --Fs 200 --Splits 50 35 15
+* `python solver.py --Fs 500 --Vs 1500 --Splits 70 15 15 --Seed 127863182`
+* `python solver.py --Fs 200 --Splits 50 35 15`
 
 # Default Values
-* --Fs 600
-* --Vs 1000
-* --Splits 80 10 10
-* --Seed 1337
+* `--Fs 600`
+* `--Vs 1000`
+* `--Splits 80 10 10`
+* `--Seed 1337`
 
 
 # Dependencies
-* nltk==3.6.1              `pip install nltk`
-* numpy==1.20.2            `pip install numpy`
-* scikit_learn==0.24.1     `pip install sklearn`
+* `nltk==3.6.1`              `pip install nltk`
+* `numpy==1.20.2`            `pip install numpy`
+* `scikit_learn==0.24.1`     `pip install sklearn`
